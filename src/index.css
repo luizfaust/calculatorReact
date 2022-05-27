@@ -16,8 +16,11 @@ ol, ul {
   padding: 10px;
   border-radius: 10px;
 }
+.teclado-row{
+  margin: 0 -3px;
+}
 
-.board-row:after {
+.teclado-row:after {
   clear: both;
   content: "";
   display: table;
@@ -27,12 +30,12 @@ ol, ul {
   margin-bottom: 7px;
   background: #fff;
   padding: 2px 7px;
-  height: 19px;
+  height: 30px;
   text-align: right;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
-.botao {
+.botao, .botaoL {
   background: #fff;
   border: 1px solid #999;
   float: left;
@@ -45,6 +48,10 @@ ol, ul {
   text-align: center;
   width: 34px;
   border-radius: 10px;
+}
+
+.botaoL {
+  width: 72px;
 }
 
 .botao:focus {
